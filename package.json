@@ -1,0 +1,44 @@
+{
+  "name": "eslint-config-videojs",
+  "description": "An ESLint Shareable Config for video.js Standard Style.",
+  "version": "0.0.0",
+  "author": "Brightcove, Inc.",
+  "bugs": {
+    "url": "https://github.com/videojs/eslint-config-videojs/issues"
+  },
+  "devDependencies": {
+    "eslint": "^1.0.0"
+  },
+  "homepage": "https://github.com/videojs/eslint-config-videojs",
+  "keywords": [
+    "videojs",
+    "standard",
+    "style checker",
+    "code style",
+    "code checker",
+    "code linter",
+    "style linter",
+    "simple",
+    "policy",
+    "style",
+    "code",
+    "lint",
+    "eslint",
+    "eslintconfig",
+    "jshint",
+    "jscs",
+    "hint",
+    "enforce",
+    "check",
+    "verify",
+    "quality",
+    "checker",
+    "code standards"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/videojs/eslint-config-videojs.git"
+  }
+}
