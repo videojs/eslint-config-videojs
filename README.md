@@ -40,9 +40,10 @@ You can override settings from the shareable config by adding them directly into
 
 Apache-2.0. Copyright (c) [Brightcove, Inc.][bcov]
 
-This project is based on [`eslint-config-standard`](https://github.com/feross/eslint-config-standard), which is licensed under the MIT license and copyright (c) Feross Aboukhadijeh.
+This project is based on [`eslint-config-standard`][eslint-config-standard], which is licensed under the MIT license and copyright (c) Feross Aboukhadijeh.
 
 [bcov]: https://www.brightcove.com/
+[eslint-config-standard]: https://github.com/feross/eslint-config-standard
 [shareable-configs]: http://eslint.org/docs/developer-guide/shareable-configs
 [travis-image]: https://img.shields.io/travis/videojs/eslint-config-videojs.svg?style=flat
 [travis-url]: https://travis-ci.org/videojs/eslint-config-videojs
