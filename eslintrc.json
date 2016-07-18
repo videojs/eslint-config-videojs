@@ -23,7 +23,6 @@
     "eol-last": "error",
     "eqeqeq": ["error", "allow-null"],
     "func-names": "off",
-    "func-style": ["error", "expression"],
     "guard-for-in": "off",
     "handle-callback-err": ["error", "^(err|error|anySpecificError)$"],
     "indent": ["error", 2],
