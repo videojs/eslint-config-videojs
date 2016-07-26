@@ -36,6 +36,21 @@ Then, add this to your .eslintrc file:
 
 You can override settings from the shareable config by adding them directly into your `.eslintrc` file.
 
+## Contributing
+
+This project should almost never change.
+
+A rule should only change if there is a _very_ compelling reason that the video.js core contributors have agreed upon by discussion in an issue.
+
+### Versioning Guidelines
+
+Because this project can cause builds to fail, we want to avoid any potentially breaking changes outside of major versions. As such, these rules will be followed:
+
+- Any change which is a loosening of a rule (an error becoming a warning or a rule being removed) can be released as a **patch**. These changes will not cause builds to fail that were previously passing.
+- All other changes are considered **major**.
+
+This should allow common version ranges (`~` and `^`) to _never_ introduce a change that could break someone's build due to linter errors!
+
 ## License
 
 Apache-2.0. Copyright (c) [Brightcove, Inc.][bcov]
@@ -43,6 +58,7 @@ Apache-2.0. Copyright (c) [Brightcove, Inc.][bcov]
 This project is based on [`eslint-config-standard`][eslint-config-standard], which is licensed under the MIT license and copyright (c) Feross Aboukhadijeh.
 
 [bcov]: https://www.brightcove.com/
+[contrib]: CONTRIBUTING.md
 [eslint-config-standard]: https://github.com/feross/eslint-config-standard
 [shareable-configs]: http://eslint.org/docs/developer-guide/shareable-configs
 [travis-image]: https://img.shields.io/travis/videojs/eslint-config-videojs.svg?style=flat
