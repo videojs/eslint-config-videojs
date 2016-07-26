@@ -46,7 +46,8 @@ A rule should only change if there is a _very_ compelling reason that the video.
 
 Because this project can cause builds to fail, we want to avoid any potentially breaking changes outside of major versions. As such, these rules will be followed:
 
-- Any change which is a loosening of a rule (an error becoming a warning or a rule being removed) can be released as a **patch**. These changes will not cause builds to fail that were previously passing.
+- Any change which is a loosening of a rule (an error becoming a warning or a rule being removed) can be released as a **patch**.
+- Any change which is tightening a rule from off to warning can be released as a **minor**.
 - All other changes are considered **major**.
 
 This should allow common version ranges (`~` and `^`) to _never_ introduce a change that could break someone's build due to linter errors!
