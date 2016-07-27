@@ -121,7 +121,7 @@
     "no-unreachable": "error",
     "no-unused-expressions": "error",
     "no-unused-vars": ["error", {"vars": "all", "args": "none"}],
-    "no-use-before-define": "error",
+    "no-use-before-define": ["error", {"functions": false}],
     "no-var": "error",
     "no-void": "off",
     "no-warning-comments": ["warn", {"terms": ["todo", "fixme", "xxx"], "location": "start"}],
