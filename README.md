@@ -6,6 +6,10 @@ An ESLint [Shareable Config][shareable-configs] for [video.js Standard Style][vi
 
 _This package is for advanced users. If you only want the [video.js Standard Style][videojs-standard] program to check your code, use that instead!_
 
+Lead Maintainer: Pat O'Neill [@misteroneill](https://github.com/misteroneill)
+
+Maintenance Status: Stable
+
 ## Install
 
 ```bash
