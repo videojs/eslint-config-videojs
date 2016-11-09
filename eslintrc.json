@@ -46,6 +46,7 @@
     "no-catch-shadow": "error",
     "no-cond-assign": ["error", "except-parens"],
     "no-console": "error",
+    "no-const-assign": "error",
     "no-constant-condition": "off",
     "no-continue": "off",
     "no-control-regex": "error",
