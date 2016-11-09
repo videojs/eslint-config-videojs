@@ -1,5 +1,5 @@
 {
-  "plugins": ["markdown"],
+  "plugins": ["markdown", "json", "jsdoc"],
   "parserOptions": {
     "sourceType": "module",
     "impliedStrict": true
@@ -9,7 +9,6 @@
     "es6": true,
     "node": true
   },
-
   "rules": {
     "block-scoped-var": "off",
     "brace-style": ["error", "1tbs", {"allowSingleLine": false}],
@@ -160,5 +159,39 @@
     "wrap-iife": ["error", "any"],
     "wrap-regex": "error",
     "yoda": ["error", "never"]
+
+    "jsdoc/newline-after-description": "warn",
+    "require-jsdoc": ["warn", {
+      "require": {
+        "FunctionDeclaration": true,
+        "MethodDefinition": true,
+        "ClassDeclaration": true
+      }
+    }],
+    "valid-jsdoc": ["warn", {
+      "prefer": {
+        "returns": "return",
+        "augments": "extends",
+        "arg": "param",
+        "virtual": "abstract",
+        "constructor": "class"
+      },
+      "preferType": {
+        "Boolean": "boolean",
+        "Number": "number",
+        "String": "string",
+        "Undefined": "undefined",
+        "Null": "null",
+        "object": "Object",
+        "array": "Array",
+        "date": "Date",
+        "regexp": "RegExp"
+      },
+      "requireReturn": false,
+      "requireReturnType": true,
+      "requireParamDescription": true,
+      "requireReturnDescription": true,
+      "matchDescription": ".+"
+    }]
   }
 }
