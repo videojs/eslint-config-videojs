@@ -158,8 +158,7 @@
     "vars-on-top": "error",
     "wrap-iife": ["error", "any"],
     "wrap-regex": "error",
-    "yoda": ["error", "never"]
-
+    "yoda": ["error", "never"],
     "jsdoc/newline-after-description": "warn",
     "require-jsdoc": ["warn", {
       "require": {
