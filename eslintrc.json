@@ -1,6 +1,6 @@
 {
   "parser": "babel-eslint",
-
+  "plugins": ["markdown"],
   "env": {
     "commonjs": true,
     "es6": true,
