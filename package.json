@@ -7,7 +7,7 @@
     "url": "https://github.com/videojs/eslint-config-videojs/issues"
   },
   "devDependencies": {
-    "eslint": "^1.0.0"
+    "eslint": "^3.10.0"
   },
   "homepage": "https://github.com/videojs/eslint-config-videojs",
   "keywords": [
