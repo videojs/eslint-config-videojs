@@ -31,10 +31,7 @@
     "key-spacing": ["error", {"beforeColon": false, "afterColon": true}],
     "keyword-spacing": "error",
     "max-depth": "off",
-    "max-len": ["warn", 90, 8, {
-      "ignoreUrls": true,
-      "ignorePattern": "\\s*([^\\.]test\\(|QUnit\\.test\\(|import \\w+ from)"}
-    ],
+    "max-len": "off",
     "max-nested-callbacks": ["warn", 4],
     "max-params": "off",
     "max-statements": "off",
