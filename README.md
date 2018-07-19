@@ -1,7 +1,10 @@
 # video.js ESLint Shareable Config
 
-[![travis][travis-image]][travis-url]
-[![Greenkeeper badge][greenkeeper-image]][greenkeeper-url]
+[![Build Status](https://travis-ci.org/videojs/eslint-config-videojs.svg?branch=master)](https://travis-ci.org/videojs/eslint-config-videojs)
+[![Greenkeeper badge](https://badges.greenkeeper.io/videojs/eslint-config-videojs.svg)](https://greenkeeper.io/)
+[![Slack Status](http://slack.videojs.com/badge.svg)](http://slack.videojs.com)
+
+[![NPM](https://nodei.co/npm/eslint-config-videojs.png?downloads=true&downloadRank=true)](https://nodei.co/npm/eslint-config-videojs/)
 
 An ESLint [Shareable Config][shareable-configs] for [video.js Standard Style][videojs-standard].
 
@@ -67,8 +70,4 @@ This project is based on [`eslint-config-standard`][eslint-config-standard], whi
 [contrib]: CONTRIBUTING.md
 [eslint-config-standard]: https://github.com/feross/eslint-config-standard
 [shareable-configs]: http://eslint.org/docs/developer-guide/shareable-configs
-[travis-image]: https://img.shields.io/travis/videojs/eslint-config-videojs.svg?style=flat
-[travis-url]: https://travis-ci.org/videojs/eslint-config-videojs
 [videojs-standard]: https://github.com/videojs/standard
-[greenkeeper-image]: https://badges.greenkeeper.io/videojs/eslint-config-videojs.svg
-[greenkeeper-url]: https://greenkeeper.io/
