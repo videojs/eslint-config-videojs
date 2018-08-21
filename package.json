@@ -6,9 +6,6 @@
   "bugs": {
     "url": "https://github.com/videojs/eslint-config-videojs/issues"
   },
-  "devDependencies": {
-    "eslint": "^5.0.1"
-  },
   "homepage": "https://github.com/videojs/eslint-config-videojs",
   "keywords": [
     "videojs",
