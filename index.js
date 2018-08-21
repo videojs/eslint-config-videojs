@@ -153,7 +153,7 @@ module.exports = {
     'valid-typeof': 'error',
     'vars-on-top': 'error',
     'wrap-iife': ['error', 'any'],
-    'wrap-regex': 'error',
+    'wrap-regex': 'off',
     'yoda': ['error', 'never'],
     'jsdoc/newline-after-description': 'warn',
     'require-jsdoc': ['warn', {
