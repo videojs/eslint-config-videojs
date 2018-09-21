@@ -2,11 +2,11 @@ module.exports = {
   plugins: ['markdown', 'json-light', 'jsdoc'],
   parserOptions: {
     sourceType: 'module',
-    impliedStrict: true
+    impliedStrict: true,
+    ecmaVersion: 2016
   },
   env: {
     commonjs: true,
-    es6: true,
     node: true
   },
   rules: {
