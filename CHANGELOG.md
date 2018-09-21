@@ -1,3 +1,10 @@
+<a name="5.0.1"></a>
+## [5.0.1](https://github.com/videojs/eslint-config-videojs/compare/v5.0.0...v5.0.1) (2018-09-21)
+
+### Bug Fixes
+
+* update ecma version to 2017 for actual async/await ([1e482fe](https://github.com/videojs/eslint-config-videojs/commit/1e482fe))
+
 <a name="5.0.0"></a>
 # [5.0.0](https://github.com/videojs/eslint-config-videojs/compare/v4.0.1...v5.0.0) (2018-09-21)
 
