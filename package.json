@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-videojs",
   "description": "An ESLint Shareable Config for video.js Standard Style.",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "author": "Brightcove, Inc.",
   "bugs": {
     "url": "https://github.com/videojs/eslint-config-videojs/issues"
