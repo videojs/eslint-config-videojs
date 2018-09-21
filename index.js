@@ -10,6 +10,7 @@ module.exports = {
     node: true
   },
   rules: {
+    'array-bracket-newline': ['error', 'consistent'],
     'block-scoped-var': 'off',
     'brace-style': ['error', '1tbs', {allowSingleLine: false}],
     'camelcase': ['error', {properties: 'always'}],
@@ -25,6 +26,7 @@ module.exports = {
     'eol-last': 'error',
     'eqeqeq': ['error', 'allow-null'],
     'func-names': 'off',
+    'function-paren-newline': ['error', 'multiline'],
     'guard-for-in': 'off',
     'handle-callback-err': ['error', '^(err|error|anySpecificError)$'],
     'indent': ['error', 2],
@@ -129,6 +131,7 @@ module.exports = {
     'no-void': 'off',
     'no-warning-comments': ['warn', {terms: ['todo', 'fixme', 'xxx'], location: 'start'}],
     'no-with': 'error',
+    'object-curly-newline': ['error', {consistent: true}],
     'object-shorthand': ['error', 'always'],
     'one-var': ['error', 'never'],
     'operator-assignment': ['off', 'always'],
