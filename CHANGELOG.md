@@ -1,3 +1,10 @@
+<a name="5.0.2"></a>
+## [5.0.2](https://github.com/videojs/eslint-config-videojs/compare/v5.0.1...v5.0.2) (2018-09-26)
+
+### Bug Fixes
+
+* Add es6 to env ([bd77770](https://github.com/videojs/eslint-config-videojs/commit/bd77770))
+
 <a name="5.0.1"></a>
 ## [5.0.1](https://github.com/videojs/eslint-config-videojs/compare/v5.0.0...v5.0.1) (2018-09-21)
 
