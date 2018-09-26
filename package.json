@@ -47,10 +47,6 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": [
-      "vjsstandard --fix",
-      "git add"
-    ],
     "README.md": [
       "doctoc",
       "git add"
