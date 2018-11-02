@@ -1,15 +1,38 @@
 module.exports = {
-  plugins: ['markdown', 'json-light', 'jsdoc'],
+  plugins: ['json-light', 'jsdoc', 'html', 'react', 'markdown'],
   parserOptions: {
     sourceType: 'module',
     impliedStrict: true,
-    ecmaVersion: 2017
+    ecmaVersion: 2017,
+    ecmaFeatures: {
+      jsx: true
+    }
+  },
+  settings: {
+    'html/html-extensions': ['.html', '.html.example', '.handlebars', '.htm'],
+    'html/indent': '+2',
+    'html/report-bad-indent': 'error',
+    // the default plus jsx
+    'html/javascript-mime-types': ['/(application|text)/(x-)?(javascript|jsx|babel|ecmascript-6)/']
   },
   env: {
     commonjs: true,
     es6: true,
     node: true
   },
+  overrides: [{
+    files: ['**/*.md', '**/*.html', '**/*.html.example'],
+    env: {browser: true},
+    rules: {
+      'no-var': 0,
+      'no-unused-vars': 0,
+      'no-undef': 0,
+      'no-console': 0,
+      'object-shorthand': ['error', 'never'],
+      'require-jsdoc': 'off',
+      'valid-jsdoc': 'off'
+    }
+  }],
   rules: {
     'array-bracket-newline': ['error', 'consistent'],
     'block-scoped-var': 'off',
