@@ -32,6 +32,13 @@ module.exports = {
       'require-jsdoc': 'off',
       'valid-jsdoc': 'off'
     }
+  }, {
+    files: ['**/*.test.js'],
+    rules: {
+      'require-jsdoc': 'off',
+      'valid-jsdoc': 'off',
+      'jsdoc/newline-after-description': 'off'
+    }
   }],
   rules: {
     'array-bracket-newline': ['error', 'consistent'],
