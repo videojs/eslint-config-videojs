@@ -43,20 +43,20 @@
     "test": "npm run lint",
     "preversion": "npm test",
     "version": "is-prerelease || npm run update-changelog && git add CHANGELOG.md",
-    "update-changelog": "conventional-changelog -p videojs -i CHANGELOG.md -s"
+    "update-changelog": "conventional-changelog -p videojs -i CHANGELOG.md -s",
+    "prepublishOnly": "vjsverify --verbose"
   },
   "lint-staged": {
-    "README.md": [
-      "doctoc",
-      "git add"
-    ]
+    "README.md": "doctoc --notitle",
+    "index.js": "eslint --config index.js --fix"
   },
   "devDependencies": {
-    "@videojs/generator-helpers": "^1.0.0",
-    "eslint": "^5.12.1",
-    "eslint-plugin-jsdoc": "^4.0.1",
+    "@videojs/generator-helpers": "^3.0.0",
+    "eslint": "^7.27.0",
+    "eslint-plugin-jsdoc": "^35.0.0",
     "eslint-plugin-json-light": "^1.0.3",
-    "eslint-plugin-markdown": "^1.0.0"
+    "eslint-plugin-markdown": "^2.2.0",
+    "videojs-generator-verify": "^4.0.0"
   },
   "husky": {
     "hooks": {
