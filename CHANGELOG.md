@@ -1,3 +1,21 @@
+<a name="6.0.0"></a>
+# [6.0.0](https://github.com/videojs/eslint-config-videojs/compare/v5.0.2...v6.0.0) (2021-05-28)
+
+### Features
+
+* update to eslint 7 compatability ([#49](https://github.com/videojs/eslint-config-videojs/issues/49)) ([98fe6ab](https://github.com/videojs/eslint-config-videojs/commit/98fe6ab))
+
+### Chores
+
+* **package:** update eslint-plugin-jsdoc to version 4.0.1 ([#42](https://github.com/videojs/eslint-config-videojs/issues/42)) ([3b3ed24](https://github.com/videojs/eslint-config-videojs/commit/3b3ed24))
+* switch to [@videojs](https://github.com/videojs)/generator-helpers ([4b1ed02](https://github.com/videojs/eslint-config-videojs/commit/4b1ed02))
+* **package:** update lint-staged to version 8.0.4 ([#40](https://github.com/videojs/eslint-config-videojs/issues/40)) ([551df79](https://github.com/videojs/eslint-config-videojs/commit/551df79)), closes [#36](https://github.com/videojs/eslint-config-videojs/issues/36)
+
+
+### BREAKING CHANGES
+
+* minimum required node version is now 14
+
 <a name="5.0.2"></a>
 ## [5.0.2](https://github.com/videojs/eslint-config-videojs/compare/v5.0.1...v5.0.2) (2018-09-26)
 
